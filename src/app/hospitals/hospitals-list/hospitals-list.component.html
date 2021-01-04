@@ -1,0 +1,17 @@
+
+  <div class="container-fluid" *ngFor="let hospital of hospitals">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <div class="card">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img class="" [src]="hospital.imagePath" alt="{{hospital.name}}">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">{{hospital.name}}</h4>
+                        <p class="card-text">Location: {{hospital.location}}</p>
+                        <p class="card-text">Direction on map</p>
+                        <p class="card-text">Contact No. : {{hospital.contact}}</p>
+                        <button class="btn btn-primary">Show More</button>
+                    </div>
+                </div>

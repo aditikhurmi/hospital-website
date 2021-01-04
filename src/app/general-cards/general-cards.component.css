@@ -1,0 +1,40 @@
+.card-text{
+    text-align: center;
+    font-family: Trebuchet MS;
+    font-size: 0.9rem;
+}
+
+
+.card{
+        height: 230px;
+    width: 220px;
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 20px;
+      transition: .1s transform cubic-bezier(.155,1.105,.295,1.12),.2s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+ 
+}
+
+.card-img-top{
+    height: 180px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}

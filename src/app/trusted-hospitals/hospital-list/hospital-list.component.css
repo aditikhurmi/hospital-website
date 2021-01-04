@@ -1,0 +1,18 @@
+.card-img-top{
+    height: 220px;
+}
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    
+      transition: .1s transform cubic-bezier(.155,1.105,.295,1.12),.2s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+     box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+ 
+}

@@ -1,0 +1,26 @@
+.navbar-light .navbar-nav .nav-link {
+    font-size:0.9rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.navbar-light .navbar-brand {
+    color: #0ec442;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: Trebuchet MS;
+}
+
+button{
+    margin-left: 2rem;
+    
+}
+
+.m-left:hover{
+    color: yellow; 
+}
+
+.navbar-brand span{
+    
+}

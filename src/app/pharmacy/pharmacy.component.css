@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

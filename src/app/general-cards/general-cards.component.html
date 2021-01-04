@@ -1,0 +1,13 @@
+<div class="container-fluid">
+<div class="row">
+
+<div class="col-md-2" 
+*ngFor="let generalcards of generalCards"
+>
+<div class="card" >
+  <img class="card-img-top" [src]="generalcards.imagePath" alt="Card image cap">
+  <div class="card-body">
+    <p class="card-text font-weight-bold" style="color:#1186d9">{{generalcards.name}}</p>
+  </div>
+  </div>
+  </div>

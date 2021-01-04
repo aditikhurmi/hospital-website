@@ -1,0 +1,16 @@
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+img{
+    height: 100%;
+    width: 350px;
+    margin: auto;
+}
+
+h4{
+    color: #0ec442;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+}

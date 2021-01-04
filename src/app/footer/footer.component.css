@@ -1,0 +1,11 @@
+.container-fluid{
+    padding-top: 30px;
+    padding-left: 100px;
+    background-color:#40a8c2;
+    color: white;
+    height: 200px;
+}
+
+p{
+    padding: 30px 80px 0px 80px;
+}

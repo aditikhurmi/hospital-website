@@ -1,0 +1,17 @@
+
+  <div class="container-fluid" *ngFor="let nursinghome of nursinghomes">
+    <div class="row">
+        <div class="col-12 mt-3">
+            <div class="card">
+                <div class="card-horizontal">
+                    <div class="img-square-wrapper">
+                        <img class="" [src]="nursinghome.imagePath" alt="{{nursinghome.name}}">
+                    </div>
+                    <div class="card-body">
+                        <h4 class="card-title">{{nursinghome.name}}</h4>
+                        <p class="card-text">Location: {{nursinghome.location}}</p>
+                        <p class="card-text">Direction on map</p>
+                        <p class="card-text">Contact No. : {{nursinghome.contact}}</p>
+                        <button class="btn btn-primary">Show More</button>
+                    </div>
+                </div>

@@ -1,0 +1,8 @@
+<div class="row">
+<div class="col-md-3"
+ *ngFor= "let pharmacY of pharmacy" >
+<div class="card">
+<img class="card-img-top" [src]="pharmacY.imagePath" alt="{{pharmacY.name}}">
+</div>
+</div>
+</div>

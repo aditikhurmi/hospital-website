@@ -1,0 +1,12 @@
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin: auto;
+}
+
+a:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
